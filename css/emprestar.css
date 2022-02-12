@@ -19,7 +19,6 @@ h1{
 	float: right;
 	margin-top: 10px;
 
-
 }
 #logo{
 display: inline;
@@ -42,7 +41,7 @@ hr{
 
 ul li{
 	float: left;
-	background-color: #e0a43d;
+	background-color: #f79300;
 	margin-left: 5px;
 	text-align: center;
 	margin-bottom: 20px;
@@ -66,20 +65,32 @@ li a:hover{
 	border-radius: 10px;
 }
 
-#emprestimos{
-	text-align: center;
-	padding: 10px;
-	clear: both;
-	width: 400px;
-	height: 500px;
-	background-color: #faf8f5;
-	border-radius: 10px;
-	border: 2px solid #db7d00;
-}
+
 footer{
 	text-align: center;
 }
 h1 a{
 	text-decoration: none;
 	color: white;
+}
+/*Edicoes do campo de emprestimos*/
+
+#container{
+	
+	height: 500px;
+	border: 1px solid darkred;
+}
+fieldset input{
+	margin: 10px;
+	width: 200px;
+	background-color: #fff;
+	border: none;
+	height: 30px;
+}
+input.emprestar{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	cursor: pointer;
+
 }

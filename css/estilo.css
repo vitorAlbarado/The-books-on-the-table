@@ -46,3 +46,8 @@ footer{
 	margin-top: 150px;
 	text-align: center;
 }
+
+/*Link entre aba*/
+input a{
+	text-decoration: none;
+}
