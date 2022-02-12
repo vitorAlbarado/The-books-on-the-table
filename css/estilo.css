@@ -1,0 +1,48 @@
+*{
+	
+	background-color: #e9f0f2;
+}
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #e9f0f2;
+}
+#login{
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 120px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+
+
+}
+input{
+	width: 60%;
+	height: 30px;
+	background-color: #fff;
+	margin-bottom: 10px;
+	/border: none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+input.email {
+	background-image: url(../img/icone-usuario.png);
+	padding-left: 40px;
+}
+input.senha {
+	background-image: url(../img/icone-cadeado.png);
+	padding-left: 40px;
+}
+input.botao{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	cursor: pointer;
+
+}
+footer{
+	margin-top: 150px;
+	text-align: center;
+}
