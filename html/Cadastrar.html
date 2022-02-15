@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
+
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Emprestar</title>
-	<link rel="stylesheet" type="text/css" href="../css/Emprestar.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/Cadastrar.css">
+	<title></title>
 </head>
 <body>
 	<div>
@@ -26,45 +27,46 @@
 			</ul>
 		</div>
 		
-	</div>	
-
-	<form>
+	</div>
+	<div id="container">
+		<form>
 		<fieldset>
 			<div id="container">
 				<div >
 					<span>
-						<label class="espaco">Matricula</label>
-						<input type="text" name="matricula" >
+						<label class="espaco">ID</label>
+						<input type="text" name="id_livro" >
 					</span>
 					<span>
-						<label class="espaco">Aluno</label>
-						<input type="text" name="nome_aluno" placeholder="Informe o nome do aluno">
+						<label class="espaco">Titulo</label>
+						<input type="text" name="titulo" placeholder="Informe o titulo do livro">
 					</span>
 					<span>
-						<label class="espaco">Turma</label>
-						<input type="text" name="turma" placeholder="Informe a turma">
+						<label class="espaco">Autor</label>
+						<input type="text" name="autor" placeholder="Informe o autor">
 					</span>
 				</div>
 				<div>
 					<span>
-						<label>Código Livro</label>
-						<input type="text" name="id_livro" >
+						<label>Editora</label>
+						<input type="text" name="editora_livro" >
 					</span>
 					<span>
-						<label class="espaco">Livro</label>
-						<input type="text" name="nome_livro" placeholder="Nome Livro">
+						<label class="espaco">Ano</label>
+						<input type="date" name="ano_livro" >
 					</span>
 					
 				</div>
 				<div id="button">
-					<input class="emprestar" type="submit" name="Emprestar" value="Emprestar">
+					<input class="emprestar" type="submit" name="Cdastrar" value="Cadastrar">
 				</div>
 			</div>			
 		</fieldset>
 	</form>
 		
-		<footer><h5>Developed by Vitoor</h5></footer>
-	
+	</div>
+
+	<footer><h5>Developed by Vitoor</h5></footer>	
 
 </body>
 </html>

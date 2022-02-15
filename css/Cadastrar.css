@@ -1,4 +1,3 @@
-
 body{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background-color: #e9f0f2;
@@ -19,7 +18,6 @@ h1{
 	float: right;
 	margin-top: 10px;
 
-
 }
 #logo{
 display: inline;
@@ -34,9 +32,9 @@ margin-left: auto;
 Margin-right: auto;
 width: 720px;
 }
-hr{
+form{
 	clear: both;
-	color: #dee0e0;
+	
 
 }
 
@@ -66,19 +64,47 @@ li a:hover{
 	border-radius: 10px;
 }
 
-#emprestimos{
-	text-align: center;
-	padding: 10px;
-	clear: both;
-	width: 400px;
-	height: 500px;
-	background-color: #faf8f5;
-	border-radius: 10px;
-	border: 2px solid #db7d00;
-}
+
 footer{
 	text-align: center;
 }
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+/*CSS cadastro*/
+
+fieldset input{
+	margin: 20px;
+	width: 200px;
+	background-color: #fff;
+	border: none;
+	height: 30px;
+}
+input.emprestar{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	height: 40px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	border-radius: 10px;
+	cursor: pointer;
+
+	
+	
+
+}
+.espaco{
+	margin-right: 20px;
+
+}
+#button{
+	margin: 0 auto;
+}
+
 h1 a{
 	text-decoration: none;
 	color: black;
