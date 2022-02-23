@@ -112,3 +112,9 @@ input.emprestar{
 #button{
 	margin: 0 auto;
 }
+
+body.emprestar #menu a#emprestar{
+	color: black;
+	background-color:#ebdec7 ;
+	border-radius: 10px;
+}
